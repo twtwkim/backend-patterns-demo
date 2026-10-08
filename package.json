@@ -1,0 +1,16 @@
+{
+  "name": "backend-patterns-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "once": "node 01-once-only/run.js",
+    "request-id": "node 02-request-id/run.js",
+    "publish": "node 03-resumable-publish/run.js"
+  },
+  "license": "ISC",
+  "description": "서버가 여러 개일 때 생기는 문제 세 가지를 작게 재현한 예제",
+  "dependencies": {
+    "mongodb": "^7.7.0",
+    "mongodb-memory-server": "^11.3.0"
+  },
+  "private": true
+}
